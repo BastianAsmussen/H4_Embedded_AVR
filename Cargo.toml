@@ -3,10 +3,8 @@ name = "h4_embedded_avr"
 version = "0.1.0"
 edition = "2024"
 
-[dependencies]
-ruduino = { git = "https://github.com/avr-rust/ruduino", branch = "master" }
-
 [profile.release]
 opt-level = 'z'
 lto = true
 strip = true
+panic = 'abort'
