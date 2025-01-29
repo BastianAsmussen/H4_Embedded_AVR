@@ -4,6 +4,7 @@
     qemu
     pkgsCross.avr.buildPackages.gcc
     avrdude
+    zigpy-cli
   ];
 
   languages.rust = {
