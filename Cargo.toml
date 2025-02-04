@@ -2,6 +2,12 @@
 name = "h4_embedded_avr"
 version = "0.1.0"
 edition = "2024"
+authors = ["Bastian Asmussen <bastian@asmussen.tech>"]
+description = "A school project for learning embedded development with AVR."
+license-file = "LICENSE"
+repository = "https://github.com/BastianAsmussen/H4_Embedded_AVR"
+keywords = ["embedded", "avr", "no-std", "school-project"]
+categories = ["embedded", "no-std"]
 
 [profile.release]
 panic = "abort"
